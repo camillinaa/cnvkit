@@ -1,0 +1,240 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram name="Page-1" id="LFi-PEIOrpaOLeZWKWrg">
+    <mxGraphModel dx="1593" dy="910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-2" target="fz2T8ukzMrA75G8MH3YB-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-2" value="Preprocessing" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="80" width="520" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-3" value="Generate Target/Antitarget Regions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="225" y="115" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-4" value="Create Reference" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="495" y="115" width="130" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="wgs_calling_regions_noseconds.hg38.target.bed" link="&lt;meta charset=&quot;utf-8&quot;&gt;wgs_calling_regions_noseconds.hg38.target.bed" id="fz2T8ukzMrA75G8MH3YB-5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="190" y="163" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;wgs_calling_regions_noseconds.hg38.antitarget.bed" link="&lt;meta charset=&quot;utf-8&quot;&gt;wgs_calling_regions_noseconds.hg38.antitarget.bed" id="fz2T8ukzMrA75G8MH3YB-6">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="190" y="190" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;reference.cnn" link="&lt;meta charset=&quot;utf-8&quot;&gt;reference.cnn" id="fz2T8ukzMrA75G8MH3YB-7">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="460" y="163" width="200" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-8" target="fz2T8ukzMrA75G8MH3YB-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-8" value="Coverage Calculation" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="260" width="520" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-10" target="fz2T8ukzMrA75G8MH3YB-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-10" value="&lt;meta charset=&quot;utf-8&quot;&gt;For Parental (P1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="290" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-11" value="Normalize Coverage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="525" y="290" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-12" target="fz2T8ukzMrA75G8MH3YB-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-12" value="&lt;span class=&quot;hljs-comment&quot;&gt;For Clone (C1)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="130" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="P1.targetcoverage.cnn" link="&lt;meta charset=&quot;utf-8&quot;&gt;wgs_calling_regions_noseconds.hg38.antitarget.bed" id="fz2T8ukzMrA75G8MH3YB-16">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="180" y="340" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;P1.antitargetcoverage.cnn" link="&lt;meta charset=&quot;utf-8&quot;&gt;P1.antitargetcoverage.cnn" id="fz2T8ukzMrA75G8MH3YB-18">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="180" y="370" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1.antitargetcoverage.cnn" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1.antitargetcoverage.cnn" id="fz2T8ukzMrA75G8MH3YB-19">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="350" y="370" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1.targetcoverage.cnn" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1.targetcoverage.cnn" id="fz2T8ukzMrA75G8MH3YB-20">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="350" y="340" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1.cnr" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1.cnr" id="fz2T8ukzMrA75G8MH3YB-21">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="515" y="370" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;P1.cnr" link="&lt;meta charset=&quot;utf-8&quot;&gt;P1.cnr" id="fz2T8ukzMrA75G8MH3YB-22">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="515" y="340" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-23" target="fz2T8ukzMrA75G8MH3YB-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-23" value="Segmentation and CNV Calling&amp;nbsp;" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="440" width="520" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-25" target="fz2T8ukzMrA75G8MH3YB-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-25" value="Perform Segmentation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="470" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-26" value="&lt;meta charset=&quot;utf-8&quot;&gt;Output Plots &amp;amp; Metrics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="525" y="470" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-27" target="fz2T8ukzMrA75G8MH3YB-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-27" value="&lt;meta charset=&quot;utf-8&quot;&gt;Call CNVs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="130" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;P1.call.cns" link="&lt;meta charset=&quot;utf-8&quot;&gt;P1.call.cns" id="fz2T8ukzMrA75G8MH3YB-28">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="350" y="520" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1.call.cns" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1.call.cns" id="fz2T8ukzMrA75G8MH3YB-29">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="350" y="550" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1.cns" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1.cns" id="fz2T8ukzMrA75G8MH3YB-30">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="180" y="550" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;P1.cns" link="&lt;meta charset=&quot;utf-8&quot;&gt;P1.cns" id="fz2T8ukzMrA75G8MH3YB-31">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="180" y="520" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1-diagram.pdf, C1-scatter.png" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1-diagram.pdf, C1-scatter.png" id="fz2T8ukzMrA75G8MH3YB-32">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="515" y="550" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;P1-diagram.pdf, P1-scatter.png" link="&lt;meta charset=&quot;utf-8&quot;&gt;P1-diagram.pdf, P1-scatter.png" id="fz2T8ukzMrA75G8MH3YB-33">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="515" y="520" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1.genemetrics.tsv" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1.genemetrics.tsv" id="fz2T8ukzMrA75G8MH3YB-35">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="515" y="580" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-36" target="fz2T8ukzMrA75G8MH3YB-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-36" value="&lt;meta charset=&quot;utf-8&quot;&gt;Germline vs Somatic Annotation" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="650" width="520" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-37" target="fz2T8ukzMrA75G8MH3YB-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-37" value="&lt;meta charset=&quot;utf-8&quot;&gt;Annotate Germline" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="680" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-38" value="&lt;meta charset=&quot;utf-8&quot;&gt;Generate VCF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="525" y="680" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-39" target="fz2T8ukzMrA75G8MH3YB-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-39" value="&lt;meta charset=&quot;utf-8&quot;&gt;Annotate Somatic" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="680" width="130" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1.germline.call.cns" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1.germline.call.cns" id="fz2T8ukzMrA75G8MH3YB-40">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="180" y="730" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1.somatic.call.cns" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1.somatic.call.cns" id="fz2T8ukzMrA75G8MH3YB-43">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="350" y="730" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1.cnvcall.vcf" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1.cnvcall.vcf" id="fz2T8ukzMrA75G8MH3YB-45">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="515" y="730" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-56" target="fz2T8ukzMrA75G8MH3YB-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-56" value="&lt;meta charset=&quot;utf-8&quot;&gt;Clone-vs-Parental Comparison" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;horizontal=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="800" width="520" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" source="fz2T8ukzMrA75G8MH3YB-58" target="fz2T8ukzMrA75G8MH3YB-61" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-58" value="&lt;meta charset=&quot;utf-8&quot;&gt;Normalize Coverage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="190" y="830" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-59" value="&lt;meta charset=&quot;utf-8&quot;&gt;Generate Metrics &amp;amp; Plots" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="525" y="830" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" source="fz2T8ukzMrA75G8MH3YB-61" target="fz2T8ukzMrA75G8MH3YB-59" parent="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-61" value="&lt;meta charset=&quot;utf-8&quot;&gt;Segment and Call CNVs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="830" width="130" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1.cns" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1.cns" id="fz2T8ukzMrA75G8MH3YB-62">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="350" y="880" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1.cnvcall.vcf" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1.cnvcall.vcf" id="fz2T8ukzMrA75G8MH3YB-63">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="350" y="910" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1.cnr" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1.cnr" id="fz2T8ukzMrA75G8MH3YB-65">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="180" y="880" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1-diagram.pdf" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1-diagram.pdf" id="fz2T8ukzMrA75G8MH3YB-66">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="515" y="910" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1.genemetrics.tsv" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1.genemetrics.tsv" id="fz2T8ukzMrA75G8MH3YB-67">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="515" y="880" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1-scatter.png" link="&lt;meta charset=&quot;utf-8&quot;&gt;C1_vs_P1-scatter.png" id="fz2T8ukzMrA75G8MH3YB-68">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=8;" vertex="1" parent="1">
+            <mxGeometry x="515" y="940" width="150" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="fz2T8ukzMrA75G8MH3YB-73" target="fz2T8ukzMrA75G8MH3YB-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-73" value="START" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="385" y="10" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fz2T8ukzMrA75G8MH3YB-74" value="END" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.start;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1000" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
